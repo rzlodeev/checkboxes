@@ -39,7 +39,7 @@ function calculatePositionY() {
 }
 
 function addEventListenerChboxsAll() {
-        body.addEventListener('click', () => {
+        chboxsAll[chboxCurrent].addEventListener('click', () => {
             if (chboxCurrent == chboxsAll.length - 1) {
                 gameOver();
             } else {
