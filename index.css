@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html {
+    overflow: hidden;
+}
+
+body {
+    margin: 0%;
+}
+
+.titleContainer, .stopwatchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 60vh;
+    width: 100vw;
+}
+
+.title, .stopwatch {
+    font-family: 'VT323';
+    margin: 0px;
+    font-size: 25px;
+}
+
+.checkboxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+}
+
+.checkbox, .checkboxUsed {
+    position: relative;
+    transition: left 0.1s;
+}
+
+.checkbox:hover {
+    cursor: pointer;
+}
+
+.stopwatchContainer {
+    height: 70vh;
+    align-items: end;
+}
